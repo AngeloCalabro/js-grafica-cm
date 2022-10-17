@@ -1,6 +1,14 @@
-.my-container {
-    width: 100%;
-    height: 100vh;
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #dedede;
+}
+
+.my-bg-color-blue {
+    background-color: #021732;
+}
+
+.my-color-blue {
+    color: #021732;
 }
 
 header,
@@ -11,6 +19,22 @@ footer {
 
 main {
     height: calc(100vh - 160px);
-    background-color: #000;
+    background-color: #021732;
     overflow: auto;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    background-color: #dedede;
+}
+
+.square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid #021732;
 }

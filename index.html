@@ -15,6 +15,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
     <!-- LIBRERIA JS -->
     <script src="./js/libreria.js"></script>
     <!-- CSS -->
@@ -24,24 +28,31 @@
 </head>
 
 <body>
-    <div class="my-container">
+    <div class="vh-100">
         <header class="d-flex justify-content-around align-items-center">
             <div class="d-flex align-items-baseline">
                 <img src="./img/logo.png" alt="logo">
-                <h1 class="text-white mx-1">Campo Minato</h1>
+                <h1 class="mx-1 my-color-blue fw-bold">Campo Minato</h1>
             </div>
 
             <div class="d-flex justify-content-around align-items-center">
-                <select class="form-content text-center mx-1" name="" id="">
+                <select class="form-control" name="livello" id="livello">
                     <option value="1">Amator</option>
                     <option value="2">Hardcore</option>
                     <option value="3">Pro</option>
                 </select>
-                <button class="btn btn-dark">Play <i class="fa-solid fa-bomb"></i></button>
+                <button id="play" class="btn btn-dark my-bg-color-blue ms-1">Play<i
+                        class="fa-solid fa-bomb fa-beat"></i></button>
             </div>
         </header>
         <main>
-
+            <h2 class="text-center text-white">Scegli la difficoltà e fai esplodere il play !</h2>
+            <div id="field-game" class="d-flex justify-content-center align-items-center">
+                <!-- <div class="grid">
+                    <div class="square">
+                    </div>
+                </div> -->
+            </div>
         </main>
         <footer>
 
