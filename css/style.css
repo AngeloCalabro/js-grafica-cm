@@ -11,15 +11,20 @@ body {
     color: #021732;
 }
 
+.my-color-green {
+    color: #6ed663;
+}
+
 header,
 footer {
     height: 80px;
     background-color: #dedede;
+    box-shadow: rgba(2, 23, 50, 0.35) 0px -50px 36px -28px inset;
 }
 
 main {
     height: calc(100vh - 160px);
-    background-color: #021732;
+    background-color: rgb(2, 23, 50);
     overflow: auto;
 }
 

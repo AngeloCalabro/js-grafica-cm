@@ -30,9 +30,9 @@ function play() {
         case 'amator':
         default: numCell = 100;
             break;
-        case 'hardcore': numCell = 81;
+        case 'pro': numCell = 81;
             break;
-        case 'pro': numCell = 49;
+        case 'hardcore': numCell = 49;
             break;
     };
 
@@ -44,8 +44,6 @@ function play() {
         }
     };
     console.log(bombsPosition)
-    // bombsPosition.style.backgroundColor = "red";
-    // bombsPosition.appendChild(cell);
 
     // Funzione che genera la cella singola
     function drawCell(num) {
