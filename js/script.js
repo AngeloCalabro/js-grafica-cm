@@ -18,6 +18,8 @@ function play() {
     console.log('Inizio gioco...')
     const NUM_BOMB = 16;
     const bombsPosition = [];
+    const displayNoneH2 = document.querySelector('h2');
+    displayNoneH2.className = 'd-none';
 
     let numCell;
     const fieldGame = document.getElementById('field-game');
