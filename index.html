@@ -30,30 +30,35 @@
 <body>
     <div class="vh-100">
         <header class="d-flex justify-content-around align-items-center">
-            <div class="d-flex align-items-baseline">
+            <div class="d-flex align-items-center">
                 <img src="./img/logo.png" alt="logo">
-                <h1 class="mx-1 my-color-blue fw-bold">Campo Minato</h1>
+                <h1 class="my-auto mx-1 my-color-blue fw-bold">Campo Minato</h1>
             </div>
 
             <div class="d-flex justify-content-around align-items-center">
-                <select class="form-control" name="livello" id="livello">
-                    <option value="1">Amator</option>
-                    <option value="2">Hardcore</option>
-                    <option value="3">Pro</option>
+                <select class="form-control my-color-blue" name="livello" id="livello">
+                    <option value="amator">Amator</option>
+                    <option value="hardcore">Hardcore</option>
+                    <option value="pro">Pro</option>
                 </select>
-                <button id="play" class="btn btn-dark my-bg-color-blue ms-1">Play<i
-                        class="fa-solid fa-bomb fa-beat"></i></button>
+                <button id="play" class="btn btn-dark my-bg-color-blue ms-1">
+                    <span>Play</span>
+                    <i class="fa-solid fa-bomb fa-beat"></i>
+                </button>
             </div>
         </header>
+
         <main>
-            <h2 class="text-center text-white">Scegli la difficoltà e fai esplodere il play !</h2>
-            <div id="field-game" class="d-flex justify-content-center align-items-center">
+            <h2 class="text-center my-2">Scegli la difficoltà e fai esplodere il play !</h2>
+            <div id="field-game" class="d-flex justify-content-center align-items-center my-color-blue">
                 <!-- <div class="grid">
                     <div class="square">
+                        <span>1</span>
                     </div>
                 </div> -->
             </div>
         </main>
+
         <footer>
 
         </footer>

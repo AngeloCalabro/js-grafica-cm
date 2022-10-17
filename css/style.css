@@ -38,3 +38,7 @@ main {
     cursor: pointer;
     border: 1px solid #021732;
 }
+
+.green {
+    background-color: #6ed663;
+}
